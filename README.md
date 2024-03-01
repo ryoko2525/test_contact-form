@@ -4,7 +4,7 @@
   ###Dockerビルド
   １、git clone git@github.com:coachtech-material/laravel-docker-template.git
   ２、mv laravel-docker-template test_contact-form
-  3,git remote set-url origin 作成したリポジトリのurl
+  3,git remote set-url origin https://github.com/ryoko2525/test_contact-form
   4,git add
   5,git commit -m "リモートリポジトリの変更”
   6,docker-compose up -d —build
