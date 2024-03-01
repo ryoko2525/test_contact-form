@@ -1,0 +1,53 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-family: Inika;
+}
+
+.thank-you-container {
+  position: relative;
+  text-align: center;
+  padding: 200px;
+  color: #82756A;
+;
+}
+
+.thank-you-container::before {
+  content: "Thank you";
+  font-size: 13em; /* 大きなフォントサイズ */
+  color: #82756A;
+
+  opacity: 0.1; /* テキストを非常に薄くする */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+white-space: nowrap; /* テキストの折り返しを防ぐ */
+}
+
+.main-text {
+  font-size: 2em;
+  margin: 0;
+}
+
+.sub-text {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.home-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #82756A;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+

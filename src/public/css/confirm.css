@@ -1,0 +1,139 @@
+header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8B7969;
+    border: 1px solid #E0DFDE;
+
+}
+
+.header__inner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header__inner-title {
+    margin: 0;
+}
+
+.form {
+    width: 972px;
+    height: 606px;
+
+}
+.confirm__top-title {
+    font-family: Inika;
+    color: #8B7969;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conrirm {
+    color: #8B7969;
+}
+
+
+.form__label{
+    background-color: #8B7969;
+    color:#E0DFDE ;
+}
+.confirm__form dl {
+    margin: 0;
+}
+.confirm__form dt,
+.confirm__form dd {
+    margin: 0;
+    padding: 15px 25px;
+}
+.form__select-item {
+}
+
+.form__label {
+    flex: 1;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 0.08em;
+}
+
+
+
+
+.form-submit input:hover {
+    opacity: 0.8;
+}
+
+
+
+.form__radio input+span {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+}
+
+.form__input-tel-space {
+    text-align: center;
+    font-size: 20px;
+}
+.confirm__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm__form {
+    width: 80%;
+    max-width: 600px;
+}
+
+.form__wrap {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family: Inika;
+}
+
+.form__label {
+    font-family: Inika;
+}
+
+.form__confirm-value,.form__label{
+    border: 1px solid  lightgray;
+}
+
+
+
+
+.form__submit {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.form-submit input {
+    margin-right: 50px;
+    width: 120px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    background-color: #82756A;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 60px;
+}
+.form__back{
+    color: inherit;
+
+
+
+}

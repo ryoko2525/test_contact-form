@@ -1,0 +1,224 @@
+header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: solid 1px #9A8A7B;
+}
+
+.header__inner-title {
+    font-family: Inika;
+    font-size: 40px;
+    color: #9A8A7B;
+}
+
+.header__inner-nav {}
+
+.header__inner-nav-list {
+    background-color: rgb(246, 246, 246);
+    font-family: Inika;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 0.5;
+    right: 0;
+    text-transform: uppercase;
+    border: 1px solid rgb(236, 230, 224);
+    transition: .3s;
+}
+
+.header__inner-nav-list a {
+
+    text-decoration: none;
+    color: rgb(236, 230, 224);
+}
+
+
+.admin__content--top-title {
+    font-family: Inika;
+        color: #8B7969;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 46px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+/* ここまで */
+.admin__content{
+    margin-top: 30px;
+}
+.admin__content--inner{
+
+    /* 上と同じなので使わないと思う */
+}
+
+/* ボタン等 */
+
+.admin__content--top-bar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Inika;
+
+}
+
+.admin__content--search-input{
+    
+    color:rgb(203, 196, 190);
+    background-color:rgb(251, 251, 251) ;
+    border: 1px solid #E3DED9;
+    padding:5px 10px ;
+    font-family: Inika;
+    margin-right: 10px;
+
+}
+
+
+.admin__content--gender-select,
+.admin__content--category_id-select,
+.admin__content--date-select
+{
+    font-family: Inika;
+    background-color: rgb(244, 244, 244);
+    color: rgb(211, 205, 200);
+    border: 1px solid #E3DED9;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.admin__content--category_id-select{
+
+}
+.admin__content--date-select{
+
+}
+.admin__content--date-search{
+    background-color:rgb(130, 117, 106) ;
+    color:rgb(224, 221, 218);
+    font-family: Inika;
+    padding: 5px 10px;
+    border: 1px solid #D9C6B5;
+    margin-right: 10px;
+
+}
+
+
+.admin__content--date-reset{
+    background-color: rgb(217, 198, 181);
+    color: rgb(250, 247, 244);
+    font-family: Inika;
+    padding: 5px 10px;
+    border: 1px solid #D9C6B5
+}
+
+/* ボタンのしたのページネーション */
+
+
+.admin__content-pagenate{
+    text-align: end;
+    justify-content: end;
+    align-items: flex-end;
+
+}
+
+.admin__content--pagination{
+
+}
+
+
+/* テーブル */
+
+
+.admin__content--table-block{
+    font-family: Inika;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+
+.admin__content--table{
+    width: 73%;
+
+    border: 1px solid #E0DFDE;
+}
+
+.admin__content--table-title{
+    color:rgb(255, 255, 255);
+    border-right: 1px solid #E0DFDE;
+    border-left: 1px solid #E0DFDE;
+    border-bottom: 1px solid #E0DFDE;
+    background-color: #8B7969;
+    height: 50px;
+}
+
+.admin__content--table-title-name{
+
+}
+
+.admin__content--table-title-gender{
+
+}
+
+.admin__content--table-title-email{
+
+}
+
+.admin__content--table-title-category{
+
+
+}
+
+.admin__content--table-row{
+    color:#8B7969;
+    height: 50px;
+
+}
+
+.admin__content--table-row-name{
+
+}
+
+.admin__content--table-row-gender{
+
+}
+
+.admin__content--table-row-button{
+    color: #D9C6B599;
+    border: 1px solid #D9C6B599;
+    background-color: rgb(252, 252, 252);
+}
+
+.pagination {
+    display: flex;
+    justify-content: right;
+    margin-right: 20%;
+}
+    .page-item {
+        border: 0.5px solid #eeeeee;
+        padding: 5px 10px;
+    }
+
+    .disabled {
+        color:rgb(138, 121, 105);
+    }
+
+    .active {
+        color:rgb(138, 121, 105);
+        background:rgb(138, 121, 105);
+
+    }
+
+    .page-link {
+        color: #999999;
+        text-decoration: none;
+
+    }
+

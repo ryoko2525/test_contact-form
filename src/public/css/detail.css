@@ -1,0 +1,52 @@
+/* モーダルを非表示にする */
+.modal-toggle {
+    display: none;
+}
+
+/* モーダルを表示する */
+.modal-toggle:checked+.modal-background {
+    display: block;
+}
+
+/* モーダルの背景 */
+.modal-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明の黒色 */
+}
+
+/* モーダルのコンテンツ */
+.modal-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 詳細ボタンのスタイル */
+.detail-button {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.detail-button:hover {
+    background-color: #0056b3;
+}
+
+/* 画像のスタイル */
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
